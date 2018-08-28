@@ -7,9 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1652C50FAE96E1B7DD4E9FC0 /* Pods_FevaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DDBA4DDD9363C2F40A936E1 /* Pods_FevaTests.framework */; };
+		7CB93BABBF49A08D56104474 /* Pods_FevaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E6D535CF92678CDA2511E90 /* Pods_FevaUITests.framework */; };
+		9F1A31F1A7FCF5F2F14166B7 /* Pods_Feva.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EBE3014731AABE09BB6771 /* Pods_Feva.framework */; };
+		DD33A3A621351F9C005D9CE5 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD33A39C21351F98005D9CE5 /* OpenSans-LightItalic.ttf */; };
+		DD33A3A721351F9C005D9CE5 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD33A39D21351F99005D9CE5 /* OpenSans-Regular.ttf */; };
+		DD33A3A821351F9C005D9CE5 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD33A39E21351F99005D9CE5 /* OpenSans-SemiBold.ttf */; };
+		DD33A3A921351F9C005D9CE5 /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD33A39F21351F99005D9CE5 /* OpenSans-SemiBoldItalic.ttf */; };
+		DD33A3AA21351F9C005D9CE5 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD33A3A021351F9A005D9CE5 /* OpenSans-BoldItalic.ttf */; };
+		DD33A3AB21351F9C005D9CE5 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD33A3A121351F9A005D9CE5 /* OpenSans-ExtraBold.ttf */; };
+		DD33A3AC21351F9C005D9CE5 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD33A3A221351F9B005D9CE5 /* OpenSans-Bold.ttf */; };
+		DD33A3AD21351F9C005D9CE5 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD33A3A321351F9B005D9CE5 /* OpenSans-Italic.ttf */; };
+		DD33A3AE21351F9C005D9CE5 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD33A3A421351F9C005D9CE5 /* OpenSans-ExtraBoldItalic.ttf */; };
+		DD33A3AF21351F9C005D9CE5 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD33A3A521351F9C005D9CE5 /* OpenSans-Light.ttf */; };
+		DD33A3B621352020005D9CE5 /* FontNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD33A3B12135201F005D9CE5 /* FontNames.swift */; };
+		DD33A3B721352020005D9CE5 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD33A3B22135201F005D9CE5 /* Colors.swift */; };
+		DD33A3B821352020005D9CE5 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD33A3B32135201F005D9CE5 /* Alerts.swift */; };
+		DD33A3B921352020005D9CE5 /* RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD33A3B421352020005D9CE5 /* RGB.swift */; };
+		DD33A3BA21352020005D9CE5 /* DarkOverLay.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD33A3B521352020005D9CE5 /* DarkOverLay.swift */; };
+		DD33A3BF21352082005D9CE5 /* EnterCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD33A3BB21352080005D9CE5 /* EnterCodeViewController.swift */; };
+		DD33A3C021352082005D9CE5 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD33A3BC21352081005D9CE5 /* LogInViewController.swift */; };
+		DD33A3C121352082005D9CE5 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD33A3BD21352081005D9CE5 /* SignUpViewController.swift */; };
+		DD33A3C221352082005D9CE5 /* VerifyPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD33A3BE21352082005D9CE5 /* VerifyPhoneViewController.swift */; };
+		DD33A3C4213520C6005D9CE5 /* OptimizedFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD33A3C3213520C6005D9CE5 /* OptimizedFont.swift */; };
+		DD33A3C6213520E9005D9CE5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD33A3C5213520E9005D9CE5 /* Extensions.swift */; };
+		DD33A3CA21352135005D9CE5 /* BaseLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD33A3C721352134005D9CE5 /* BaseLabel.swift */; };
+		DD33A3CB21352135005D9CE5 /* BaseUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD33A3C821352134005D9CE5 /* BaseUIView.swift */; };
+		DD33A3CC21352135005D9CE5 /* BaseImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD33A3C921352135005D9CE5 /* BaseImageView.swift */; };
+		DD33A3CE21352162005D9CE5 /* CustomAlertsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD33A3CD21352162005D9CE5 /* CustomAlertsView.swift */; };
+		DD33A3D021352178005D9CE5 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD33A3CF21352178005D9CE5 /* CustomTabBarController.swift */; };
+		DD33A3D2213521AA005D9CE5 /* MyConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD33A3D1213521AA005D9CE5 /* MyConstraints.swift */; };
 		DDE84B922134F31E00B57A34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE84B912134F31E00B57A34 /* AppDelegate.swift */; };
-		DDE84B942134F31E00B57A34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE84B932134F31E00B57A34 /* ViewController.swift */; };
-		DDE84B972134F31E00B57A34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE84B952134F31E00B57A34 /* Main.storyboard */; };
 		DDE84B9A2134F31E00B57A34 /* Feva.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DDE84B982134F31E00B57A34 /* Feva.xcdatamodeld */; };
 		DDE84B9C2134F31F00B57A34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE84B9B2134F31F00B57A34 /* Assets.xcassets */; };
 		DDE84B9F2134F31F00B57A34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE84B9D2134F31F00B57A34 /* LaunchScreen.storyboard */; };
@@ -35,10 +63,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B33DEB58C68EBBC83788AA5 /* Pods-FevaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FevaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FevaUITests/Pods-FevaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		10B1028327E772C2B21A8614 /* Pods-Feva.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Feva.release.xcconfig"; path = "Pods/Target Support Files/Pods-Feva/Pods-Feva.release.xcconfig"; sourceTree = "<group>"; };
+		1BE8576F19D3B74DF2F4D5AB /* Pods-FevaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FevaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FevaTests/Pods-FevaTests.release.xcconfig"; sourceTree = "<group>"; };
+		1DDBA4DDD9363C2F40A936E1 /* Pods_FevaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FevaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E6D535CF92678CDA2511E90 /* Pods_FevaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FevaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		328CAE266FFE1237D53EBC31 /* Pods-FevaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FevaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FevaTests/Pods-FevaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		42EBE3014731AABE09BB6771 /* Pods_Feva.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Feva.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA7E5CCBC25CE0154A12DF0 /* Pods-Feva.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Feva.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Feva/Pods-Feva.debug.xcconfig"; sourceTree = "<group>"; };
+		A414EBEFEA6BC3C094C5920F /* Pods-FevaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FevaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FevaUITests/Pods-FevaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DD33A39C21351F98005D9CE5 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		DD33A39D21351F99005D9CE5 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		DD33A39E21351F99005D9CE5 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		DD33A39F21351F99005D9CE5 /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		DD33A3A021351F9A005D9CE5 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		DD33A3A121351F9A005D9CE5 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		DD33A3A221351F9B005D9CE5 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		DD33A3A321351F9B005D9CE5 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		DD33A3A421351F9C005D9CE5 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		DD33A3A521351F9C005D9CE5 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		DD33A3B12135201F005D9CE5 /* FontNames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontNames.swift; sourceTree = "<group>"; };
+		DD33A3B22135201F005D9CE5 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		DD33A3B32135201F005D9CE5 /* Alerts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		DD33A3B421352020005D9CE5 /* RGB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGB.swift; sourceTree = "<group>"; };
+		DD33A3B521352020005D9CE5 /* DarkOverLay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkOverLay.swift; sourceTree = "<group>"; };
+		DD33A3BB21352080005D9CE5 /* EnterCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterCodeViewController.swift; sourceTree = "<group>"; };
+		DD33A3BC21352081005D9CE5 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		DD33A3BD21352081005D9CE5 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		DD33A3BE21352082005D9CE5 /* VerifyPhoneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyPhoneViewController.swift; sourceTree = "<group>"; };
+		DD33A3C3213520C6005D9CE5 /* OptimizedFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptimizedFont.swift; sourceTree = "<group>"; };
+		DD33A3C5213520E9005D9CE5 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DD33A3C721352134005D9CE5 /* BaseLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseLabel.swift; sourceTree = "<group>"; };
+		DD33A3C821352134005D9CE5 /* BaseUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUIView.swift; sourceTree = "<group>"; };
+		DD33A3C921352135005D9CE5 /* BaseImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseImageView.swift; sourceTree = "<group>"; };
+		DD33A3CD21352162005D9CE5 /* CustomAlertsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlertsView.swift; sourceTree = "<group>"; };
+		DD33A3CF21352178005D9CE5 /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		DD33A3D1213521AA005D9CE5 /* MyConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyConstraints.swift; sourceTree = "<group>"; };
 		DDE84B8E2134F31E00B57A34 /* Feva.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Feva.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE84B912134F31E00B57A34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DDE84B932134F31E00B57A34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DDE84B962134F31E00B57A34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DDE84B992134F31E00B57A34 /* Feva.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Feva.xcdatamodel; sourceTree = "<group>"; };
 		DDE84B9B2134F31F00B57A34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDE84B9E2134F31F00B57A34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F1A31F1A7FCF5F2F14166B7 /* Pods_Feva.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1652C50FAE96E1B7DD4E9FC0 /* Pods_FevaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +134,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CB93BABBF49A08D56104474 /* Pods_FevaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31B7A6A9CE8C6F42B12B6A09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42EBE3014731AABE09BB6771 /* Pods_Feva.framework */,
+				1DDBA4DDD9363C2F40A936E1 /* Pods_FevaTests.framework */,
+				1E6D535CF92678CDA2511E90 /* Pods_FevaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD33A3B021351FF8005D9CE5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DD33A3A221351F9B005D9CE5 /* OpenSans-Bold.ttf */,
+				DD33A3A021351F9A005D9CE5 /* OpenSans-BoldItalic.ttf */,
+				DD33A3A121351F9A005D9CE5 /* OpenSans-ExtraBold.ttf */,
+				DD33A3A421351F9C005D9CE5 /* OpenSans-ExtraBoldItalic.ttf */,
+				DD33A3A321351F9B005D9CE5 /* OpenSans-Italic.ttf */,
+				DD33A3A521351F9C005D9CE5 /* OpenSans-Light.ttf */,
+				DD33A39C21351F98005D9CE5 /* OpenSans-LightItalic.ttf */,
+				DD33A39D21351F99005D9CE5 /* OpenSans-Regular.ttf */,
+				DD33A39E21351F99005D9CE5 /* OpenSans-SemiBold.ttf */,
+				DD33A39F21351F99005D9CE5 /* OpenSans-SemiBoldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		DDE84B852134F31E00B57A34 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +175,8 @@
 				DDE84BA82134F31F00B57A34 /* FevaTests */,
 				DDE84BB32134F31F00B57A34 /* FevaUITests */,
 				DDE84B8F2134F31E00B57A34 /* Products */,
+				F234687A45F34E29F20BE9BD /* Pods */,
+				31B7A6A9CE8C6F42B12B6A09 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,8 +194,24 @@
 			isa = PBXGroup;
 			children = (
 				DDE84B912134F31E00B57A34 /* AppDelegate.swift */,
-				DDE84B932134F31E00B57A34 /* ViewController.swift */,
-				DDE84B952134F31E00B57A34 /* Main.storyboard */,
+				DD33A3C921352135005D9CE5 /* BaseImageView.swift */,
+				DD33A3C721352134005D9CE5 /* BaseLabel.swift */,
+				DD33A3C821352134005D9CE5 /* BaseUIView.swift */,
+				DD33A3BB21352080005D9CE5 /* EnterCodeViewController.swift */,
+				DD33A3BC21352081005D9CE5 /* LogInViewController.swift */,
+				DD33A3BD21352081005D9CE5 /* SignUpViewController.swift */,
+				DD33A3BE21352082005D9CE5 /* VerifyPhoneViewController.swift */,
+				DD33A3CF21352178005D9CE5 /* CustomTabBarController.swift */,
+				DD33A3B32135201F005D9CE5 /* Alerts.swift */,
+				DD33A3B22135201F005D9CE5 /* Colors.swift */,
+				DD33A3B521352020005D9CE5 /* DarkOverLay.swift */,
+				DD33A3B12135201F005D9CE5 /* FontNames.swift */,
+				DD33A3B421352020005D9CE5 /* RGB.swift */,
+				DD33A3C3213520C6005D9CE5 /* OptimizedFont.swift */,
+				DD33A3C5213520E9005D9CE5 /* Extensions.swift */,
+				DD33A3CD21352162005D9CE5 /* CustomAlertsView.swift */,
+				DD33A3D1213521AA005D9CE5 /* MyConstraints.swift */,
+				DD33A3B021351FF8005D9CE5 /* Fonts */,
 				DDE84B9B2134F31F00B57A34 /* Assets.xcassets */,
 				DDE84B9D2134F31F00B57A34 /* LaunchScreen.storyboard */,
 				DDE84BA02134F31F00B57A34 /* Info.plist */,
@@ -128,6 +238,19 @@
 			path = FevaUITests;
 			sourceTree = "<group>";
 		};
+		F234687A45F34E29F20BE9BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BA7E5CCBC25CE0154A12DF0 /* Pods-Feva.debug.xcconfig */,
+				10B1028327E772C2B21A8614 /* Pods-Feva.release.xcconfig */,
+				328CAE266FFE1237D53EBC31 /* Pods-FevaTests.debug.xcconfig */,
+				1BE8576F19D3B74DF2F4D5AB /* Pods-FevaTests.release.xcconfig */,
+				0B33DEB58C68EBBC83788AA5 /* Pods-FevaUITests.debug.xcconfig */,
+				A414EBEFEA6BC3C094C5920F /* Pods-FevaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +258,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DDE84BB92134F31F00B57A34 /* Build configuration list for PBXNativeTarget "Feva" */;
 			buildPhases = (
+				454F43767C018E20AEFA8DEF /* [CP] Check Pods Manifest.lock */,
 				DDE84B8A2134F31E00B57A34 /* Sources */,
 				DDE84B8B2134F31E00B57A34 /* Frameworks */,
 				DDE84B8C2134F31E00B57A34 /* Resources */,
+				701AE708D86BF8B55D80BA10 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +277,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DDE84BBC2134F31F00B57A34 /* Build configuration list for PBXNativeTarget "FevaTests" */;
 			buildPhases = (
+				B7498A1009ED2F75A38CB738 /* [CP] Check Pods Manifest.lock */,
 				DDE84BA12134F31F00B57A34 /* Sources */,
 				DDE84BA22134F31F00B57A34 /* Frameworks */,
 				DDE84BA32134F31F00B57A34 /* Resources */,
@@ -170,6 +296,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DDE84BBF2134F31F00B57A34 /* Build configuration list for PBXNativeTarget "FevaUITests" */;
 			buildPhases = (
+				239637717D9329BA5CA3E3A4 /* [CP] Check Pods Manifest.lock */,
 				DDE84BAC2134F31F00B57A34 /* Sources */,
 				DDE84BAD2134F31F00B57A34 /* Frameworks */,
 				DDE84BAE2134F31F00B57A34 /* Resources */,
@@ -232,9 +359,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD33A3A921351F9C005D9CE5 /* OpenSans-SemiBoldItalic.ttf in Resources */,
 				DDE84B9F2134F31F00B57A34 /* LaunchScreen.storyboard in Resources */,
 				DDE84B9C2134F31F00B57A34 /* Assets.xcassets in Resources */,
-				DDE84B972134F31E00B57A34 /* Main.storyboard in Resources */,
+				DD33A3AD21351F9C005D9CE5 /* OpenSans-Italic.ttf in Resources */,
+				DD33A3AB21351F9C005D9CE5 /* OpenSans-ExtraBold.ttf in Resources */,
+				DD33A3AA21351F9C005D9CE5 /* OpenSans-BoldItalic.ttf in Resources */,
+				DD33A3AF21351F9C005D9CE5 /* OpenSans-Light.ttf in Resources */,
+				DD33A3AC21351F9C005D9CE5 /* OpenSans-Bold.ttf in Resources */,
+				DD33A3A821351F9C005D9CE5 /* OpenSans-SemiBold.ttf in Resources */,
+				DD33A3A721351F9C005D9CE5 /* OpenSans-Regular.ttf in Resources */,
+				DD33A3AE21351F9C005D9CE5 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				DD33A3A621351F9C005D9CE5 /* OpenSans-LightItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +390,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		239637717D9329BA5CA3E3A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FevaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		454F43767C018E20AEFA8DEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Feva-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		701AE708D86BF8B55D80BA10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Feva/Pods-Feva-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/MarqueeLabel/MarqueeLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MarqueeLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Feva/Pods-Feva-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7498A1009ED2F75A38CB738 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FevaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DDE84B8A2134F31E00B57A34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD33A3C121352082005D9CE5 /* SignUpViewController.swift in Sources */,
+				DD33A3CA21352135005D9CE5 /* BaseLabel.swift in Sources */,
+				DD33A3BA21352020005D9CE5 /* DarkOverLay.swift in Sources */,
+				DD33A3D2213521AA005D9CE5 /* MyConstraints.swift in Sources */,
 				DDE84B9A2134F31E00B57A34 /* Feva.xcdatamodeld in Sources */,
-				DDE84B942134F31E00B57A34 /* ViewController.swift in Sources */,
+				DD33A3CE21352162005D9CE5 /* CustomAlertsView.swift in Sources */,
+				DD33A3B721352020005D9CE5 /* Colors.swift in Sources */,
+				DD33A3CB21352135005D9CE5 /* BaseUIView.swift in Sources */,
+				DD33A3C221352082005D9CE5 /* VerifyPhoneViewController.swift in Sources */,
+				DD33A3D021352178005D9CE5 /* CustomTabBarController.swift in Sources */,
+				DD33A3CC21352135005D9CE5 /* BaseImageView.swift in Sources */,
+				DD33A3BF21352082005D9CE5 /* EnterCodeViewController.swift in Sources */,
+				DD33A3B621352020005D9CE5 /* FontNames.swift in Sources */,
+				DD33A3B921352020005D9CE5 /* RGB.swift in Sources */,
+				DD33A3C6213520E9005D9CE5 /* Extensions.swift in Sources */,
+				DD33A3B821352020005D9CE5 /* Alerts.swift in Sources */,
+				DD33A3C021352082005D9CE5 /* LogInViewController.swift in Sources */,
+				DD33A3C4213520C6005D9CE5 /* OptimizedFont.swift in Sources */,
 				DDE84B922134F31E00B57A34 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,14 +538,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DDE84B952134F31E00B57A34 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DDE84B962134F31E00B57A34 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DDE84B9D2134F31F00B57A34 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,6 +665,7 @@
 		};
 		DDE84BBA2134F31F00B57A34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BA7E5CCBC25CE0154A12DF0 /* Pods-Feva.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +684,7 @@
 		};
 		DDE84BBB2134F31F00B57A34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10B1028327E772C2B21A8614 /* Pods-Feva.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +703,7 @@
 		};
 		DDE84BBD2134F31F00B57A34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 328CAE266FFE1237D53EBC31 /* Pods-FevaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +725,7 @@
 		};
 		DDE84BBE2134F31F00B57A34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BE8576F19D3B74DF2F4D5AB /* Pods-FevaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +747,7 @@
 		};
 		DDE84BC02134F31F00B57A34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B33DEB58C68EBBC83788AA5 /* Pods-FevaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +768,7 @@
 		};
 		DDE84BC12134F31F00B57A34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A414EBEFEA6BC3C094C5920F /* Pods-FevaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
