@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDE84B922134F31E00B57A34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE84B912134F31E00B57A34 /* AppDelegate.swift */; };
+		DDE84B942134F31E00B57A34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE84B932134F31E00B57A34 /* ViewController.swift */; };
+		DDE84B972134F31E00B57A34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE84B952134F31E00B57A34 /* Main.storyboard */; };
+		DDE84B9A2134F31E00B57A34 /* Feva.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DDE84B982134F31E00B57A34 /* Feva.xcdatamodeld */; };
+		DDE84B9C2134F31F00B57A34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE84B9B2134F31F00B57A34 /* Assets.xcassets */; };
+		DDE84B9F2134F31F00B57A34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE84B9D2134F31F00B57A34 /* LaunchScreen.storyboard */; };
+		DDE84BAA2134F31F00B57A34 /* FevaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE84BA92134F31F00B57A34 /* FevaTests.swift */; };
+		DDE84BB52134F31F00B57A34 /* FevaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE84BB42134F31F00B57A34 /* FevaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDE84BA62134F31F00B57A34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDE84B862134F31E00B57A34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDE84B8D2134F31E00B57A34;
+			remoteInfo = Feva;
+		};
+		DDE84BB12134F31F00B57A34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDE84B862134F31E00B57A34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDE84B8D2134F31E00B57A34;
+			remoteInfo = Feva;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDE84B8E2134F31E00B57A34 /* Feva.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Feva.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE84B912134F31E00B57A34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDE84B932134F31E00B57A34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDE84B962134F31E00B57A34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDE84B992134F31E00B57A34 /* Feva.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Feva.xcdatamodel; sourceTree = "<group>"; };
+		DDE84B9B2134F31F00B57A34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDE84B9E2134F31F00B57A34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDE84BA02134F31F00B57A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE84BA52134F31F00B57A34 /* FevaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FevaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE84BA92134F31F00B57A34 /* FevaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FevaTests.swift; sourceTree = "<group>"; };
+		DDE84BAB2134F31F00B57A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE84BB02134F31F00B57A34 /* FevaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FevaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE84BB42134F31F00B57A34 /* FevaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FevaUITests.swift; sourceTree = "<group>"; };
+		DDE84BB62134F31F00B57A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDE84B8B2134F31E00B57A34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE84BA22134F31F00B57A34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE84BAD2134F31F00B57A34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDE84B852134F31E00B57A34 = {
+			isa = PBXGroup;
+			children = (
+				DDE84B902134F31E00B57A34 /* Feva */,
+				DDE84BA82134F31F00B57A34 /* FevaTests */,
+				DDE84BB32134F31F00B57A34 /* FevaUITests */,
+				DDE84B8F2134F31E00B57A34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDE84B8F2134F31E00B57A34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDE84B8E2134F31E00B57A34 /* Feva.app */,
+				DDE84BA52134F31F00B57A34 /* FevaTests.xctest */,
+				DDE84BB02134F31F00B57A34 /* FevaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDE84B902134F31E00B57A34 /* Feva */ = {
+			isa = PBXGroup;
+			children = (
+				DDE84B912134F31E00B57A34 /* AppDelegate.swift */,
+				DDE84B932134F31E00B57A34 /* ViewController.swift */,
+				DDE84B952134F31E00B57A34 /* Main.storyboard */,
+				DDE84B9B2134F31F00B57A34 /* Assets.xcassets */,
+				DDE84B9D2134F31F00B57A34 /* LaunchScreen.storyboard */,
+				DDE84BA02134F31F00B57A34 /* Info.plist */,
+				DDE84B982134F31E00B57A34 /* Feva.xcdatamodeld */,
+			);
+			path = Feva;
+			sourceTree = "<group>";
+		};
+		DDE84BA82134F31F00B57A34 /* FevaTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDE84BA92134F31F00B57A34 /* FevaTests.swift */,
+				DDE84BAB2134F31F00B57A34 /* Info.plist */,
+			);
+			path = FevaTests;
+			sourceTree = "<group>";
+		};
+		DDE84BB32134F31F00B57A34 /* FevaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDE84BB42134F31F00B57A34 /* FevaUITests.swift */,
+				DDE84BB62134F31F00B57A34 /* Info.plist */,
+			);
+			path = FevaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDE84B8D2134F31E00B57A34 /* Feva */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE84BB92134F31F00B57A34 /* Build configuration list for PBXNativeTarget "Feva" */;
+			buildPhases = (
+				DDE84B8A2134F31E00B57A34 /* Sources */,
+				DDE84B8B2134F31E00B57A34 /* Frameworks */,
+				DDE84B8C2134F31E00B57A34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Feva;
+			productName = Feva;
+			productReference = DDE84B8E2134F31E00B57A34 /* Feva.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDE84BA42134F31F00B57A34 /* FevaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE84BBC2134F31F00B57A34 /* Build configuration list for PBXNativeTarget "FevaTests" */;
+			buildPhases = (
+				DDE84BA12134F31F00B57A34 /* Sources */,
+				DDE84BA22134F31F00B57A34 /* Frameworks */,
+				DDE84BA32134F31F00B57A34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDE84BA72134F31F00B57A34 /* PBXTargetDependency */,
+			);
+			name = FevaTests;
+			productName = FevaTests;
+			productReference = DDE84BA52134F31F00B57A34 /* FevaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDE84BAF2134F31F00B57A34 /* FevaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE84BBF2134F31F00B57A34 /* Build configuration list for PBXNativeTarget "FevaUITests" */;
+			buildPhases = (
+				DDE84BAC2134F31F00B57A34 /* Sources */,
+				DDE84BAD2134F31F00B57A34 /* Frameworks */,
+				DDE84BAE2134F31F00B57A34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDE84BB22134F31F00B57A34 /* PBXTargetDependency */,
+			);
+			name = FevaUITests;
+			productName = FevaUITests;
+			productReference = DDE84BB02134F31F00B57A34 /* FevaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDE84B862134F31E00B57A34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = RockzAppStudio;
+				TargetAttributes = {
+					DDE84B8D2134F31E00B57A34 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					DDE84BA42134F31F00B57A34 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = DDE84B8D2134F31E00B57A34;
+					};
+					DDE84BAF2134F31F00B57A34 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = DDE84B8D2134F31E00B57A34;
+					};
+				};
+			};
+			buildConfigurationList = DDE84B892134F31E00B57A34 /* Build configuration list for PBXProject "Feva" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDE84B852134F31E00B57A34;
+			productRefGroup = DDE84B8F2134F31E00B57A34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDE84B8D2134F31E00B57A34 /* Feva */,
+				DDE84BA42134F31F00B57A34 /* FevaTests */,
+				DDE84BAF2134F31F00B57A34 /* FevaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDE84B8C2134F31E00B57A34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE84B9F2134F31F00B57A34 /* LaunchScreen.storyboard in Resources */,
+				DDE84B9C2134F31F00B57A34 /* Assets.xcassets in Resources */,
+				DDE84B972134F31E00B57A34 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE84BA32134F31F00B57A34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE84BAE2134F31F00B57A34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDE84B8A2134F31E00B57A34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE84B9A2134F31E00B57A34 /* Feva.xcdatamodeld in Sources */,
+				DDE84B942134F31E00B57A34 /* ViewController.swift in Sources */,
+				DDE84B922134F31E00B57A34 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE84BA12134F31F00B57A34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE84BAA2134F31F00B57A34 /* FevaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE84BAC2134F31F00B57A34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE84BB52134F31F00B57A34 /* FevaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDE84BA72134F31F00B57A34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDE84B8D2134F31E00B57A34 /* Feva */;
+			targetProxy = DDE84BA62134F31F00B57A34 /* PBXContainerItemProxy */;
+		};
+		DDE84BB22134F31F00B57A34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDE84B8D2134F31E00B57A34 /* Feva */;
+			targetProxy = DDE84BB12134F31F00B57A34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDE84B952134F31E00B57A34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDE84B962134F31E00B57A34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDE84B9D2134F31F00B57A34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDE84B9E2134F31F00B57A34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDE84BB72134F31F00B57A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDE84BB82134F31F00B57A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDE84BBA2134F31F00B57A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V56TFD2QD;
+				INFOPLIST_FILE = Feva/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RockzAppStudio.Feva;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDE84BBB2134F31F00B57A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V56TFD2QD;
+				INFOPLIST_FILE = Feva/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RockzAppStudio.Feva;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DDE84BBD2134F31F00B57A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V56TFD2QD;
+				INFOPLIST_FILE = FevaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RockzAppStudio.FevaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Feva.app/Feva";
+			};
+			name = Debug;
+		};
+		DDE84BBE2134F31F00B57A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V56TFD2QD;
+				INFOPLIST_FILE = FevaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RockzAppStudio.FevaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Feva.app/Feva";
+			};
+			name = Release;
+		};
+		DDE84BC02134F31F00B57A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V56TFD2QD;
+				INFOPLIST_FILE = FevaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RockzAppStudio.FevaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Feva;
+			};
+			name = Debug;
+		};
+		DDE84BC12134F31F00B57A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V56TFD2QD;
+				INFOPLIST_FILE = FevaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RockzAppStudio.FevaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Feva;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDE84B892134F31E00B57A34 /* Build configuration list for PBXProject "Feva" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE84BB72134F31F00B57A34 /* Debug */,
+				DDE84BB82134F31F00B57A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE84BB92134F31F00B57A34 /* Build configuration list for PBXNativeTarget "Feva" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE84BBA2134F31F00B57A34 /* Debug */,
+				DDE84BBB2134F31F00B57A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE84BBC2134F31F00B57A34 /* Build configuration list for PBXNativeTarget "FevaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE84BBD2134F31F00B57A34 /* Debug */,
+				DDE84BBE2134F31F00B57A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE84BBF2134F31F00B57A34 /* Build configuration list for PBXNativeTarget "FevaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE84BC02134F31F00B57A34 /* Debug */,
+				DDE84BC12134F31F00B57A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DDE84B982134F31E00B57A34 /* Feva.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DDE84B992134F31E00B57A34 /* Feva.xcdatamodel */,
+			);
+			currentVersion = DDE84B992134F31E00B57A34 /* Feva.xcdatamodel */;
+			path = Feva.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DDE84B862134F31E00B57A34 /* Project object */;
+}
